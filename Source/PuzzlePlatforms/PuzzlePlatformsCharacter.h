@@ -30,6 +30,8 @@ public:
 	float BaseLookUpRate;
 
 protected:
+	/**Opens InGameMenu*/
+	void OpenInGameMenu();
 
 	/** Resets HMD orientation in VR. */
 	void OnResetVR();
